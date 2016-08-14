@@ -1,0 +1,29 @@
+<?php $_categories = $block->getCurrentChildCategories(); ?>
+<?php $currentCategory = $block->getCurrentCategory(); ?>
+<?php $_count = is_array($_categories) ? count($_categories) : $_categories->count(); ?>
+<?php if ($_count): ?>
+<div class="productCategories">
+    <div class="accordion in collapse" id="categoriesNavigationAccodrion" style="height: auto;">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#categoriesNavigationAccodrion" href="#categoriesNavigationAccodrionCollapse">Categories A-Z</a>
+            </div>
+            <div id="categoriesNavigationAccodrionCollapse" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                    <ul>
+
+                        <?php /*sort($_categories);*/ foreach ($_categories as $_category): ?>
+                            <?php $this->getImageUrl($_category); ?>
+                            <?php if ($_category->getIsActive()): ?>
+                                <li>
+                                    <a href="<?php /* @escapeNotVerified */ echo $block->getCategoryUrl($_category) ?>"><img src="<?php echo $this->getImageUrl($_category) ?>"><?php echo $block->escapeHtml($_category->getName()) ?></a>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php endif; ?>

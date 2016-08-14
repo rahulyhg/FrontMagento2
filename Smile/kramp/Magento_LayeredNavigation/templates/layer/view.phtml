@@ -1,0 +1,45 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php
+/**
+ * Category layered navigation
+ *
+ * @var $block \Magento\LayeredNavigation\Block\Navigation
+ */
+?>
+
+<?php if ($block->canShowBlock()): ?>
+    <div class="accordion in collapse">
+        <div class="sidebar-box">
+            <?php echo $block->getChildHtml('state') ?>
+
+            <?php if ($block->getLayer()->getState()->getFilters()): ?>
+                <div class="block-actions filter-actions">
+                    <a href="<?php /* @escapeNotVerified */ echo $block->getClearUrl() ?>" class="action clear filter-clear"><span><?php /* @escapeNotVerified */ echo __('Clear All') ?></span></a>
+                </div>
+            <?php endif; ?>
+            <?php $wrapOptions = false; ?>
+            <?php foreach ($block->getFilters() as $filter): ?>
+                <?php if (!$wrapOptions): ?>
+                    <div class="accordion-group" id="narrow-by-list">
+                <?php $wrapOptions = true; endif; ?>
+                    <?php if ($filter->getItemsCount()): ?>
+                        <div role="heading" aria-level="3" class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent=".accordion" href="#categoriesFacet"><?php echo $block->escapeHtml(__($filter->getName())) ?></a>
+                        </div>
+                        <ul class="nav-side"><?php /* @escapeNotVerified */ echo $block->getChildBlock('renderer')->render($filter); ?></ul>
+                    <?php endif; ?>
+            <?php endforeach; ?>
+            <?php if ($wrapOptions): ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+<?php endif; ?>

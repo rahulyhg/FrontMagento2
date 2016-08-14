@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.wrapper" as="page_wrapper" htmlTag="div" htmlClass="page-wrapper">
+            <referenceContainer name="autocompleteShade" htmlClass="autocompleteShade" before="main.content"/>
+            <referenceContainer name="main.content" htmlTag="div" htmlClass="mainContent">
+                <block class="Magento\Framework\View\Element\Template" name="block.banner" as="block.custom.cms" template="Magento_Theme::html/home.phtml" />
+            </referenceContainer>
+            <container name="page.bottom.container" as="page_bottom_container" label="Before Page Footer Container" after="main.content" htmlTag="div" htmlClass="page-bottom"/>
+            <container name="before.body.end" as="before_body_end" after="-" label="Page Bottom"/>
+        </referenceContainer>
+
+
+        <!--Видалення непотрібних блоків-->
+        <referenceContainer name="columns.top" remove="true"/>
+        <referenceContainer name="columns" htmlTag="div" htmlClass="columns" remove="true"/>
+
+    </body>
+</page>

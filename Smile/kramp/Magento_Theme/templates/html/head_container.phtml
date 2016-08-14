@@ -1,0 +1,75 @@
+
+
+
+
+
+
+        <div id="nav-sub">
+
+            <div class="countryChooser">
+
+                <a href="#" class="countryChooserLink header-btn" tooltipx-title="Choose country and language" data-original-title="" title="">
+                    <span>DE</span>
+
+                    <i class="icon-arrow2-down icon-white">&nbsp;</i>
+                </a>
+            </div>
+
+            <script type="text/javascript">
+                $(window).load(function(event) {
+                    $('.countryChooserLink').clickover({getContentWithAjax: true, html: true, placement: BootstrapAddons.getPlacement, cacheAjaxResponse: true, ajaxTarget: 'https://www.kramp.com/do/action/CountryChooserPartView?langId=-1&storeId=10'});
+                    $('.countryChooserLink').bind('shown',function(){$(this).countryChooser()});
+                    //modal is appended within body in mobile
+                    if (window.env.deviceId == -12 || window.env.deviceId == -11) {
+                        $('body').on('shown',function(){$(this).countryChooser()});
+                    }
+                });
+            </script>
+
+
+            <div class="btn-group-login">
+                <a href="http://www.kramp.com/do/action/LogonView?langId=-1&amp;locale=&amp;storeId=10" class="header-btn btn-login" data-original-title="" title="">
+                    <i class="icon-user icon-white">&nbsp;</i>Login
+                </a>
+            </div>
+
+            <div class="btn-login-body-wrapper">
+                <div class="btn-login-body">
+
+
+                    <h2>Login</h2>
+                    <div class="loginError">
+
+                    </div>
+                    <div class="loginForm">
+
+                        <form method="post" name="logonForm" action="https://www.kramp.com/do/action/Logon" data-ajax-action="https://www.kramp.com/do/action/LogonAjaxCmd">
+                            <div>
+                                <label>Username</label>
+
+                                <input type="text" name="logonId" size="15">
+
+                                <label>Password</label>
+                                <input type="password" id="logonPassword" name="logonPassword" size="15">
+                                <input type="hidden" name="storeId" value="10">
+                                <input type="hidden" name="langId" value="-1">
+                                <input type="hidden" name="reLogonURL" value="LogonView">
+
+                                <input type="hidden" name="URL" value="http://www.kramp.com/shop-de/en">
+
+                                <input type="submit" name="logOnButton" class="btn btn-warning" value="Login">
+                            </div>
+                        </form>
+
+                        <a href="http://www.kramp.com/do/action/PasswordRequestView?langId=-1&amp;locale=&amp;storeId=10">
+                            Forgotten your password?
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+

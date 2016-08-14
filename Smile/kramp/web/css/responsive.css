@@ -1,0 +1,1781 @@
+@media (min-width: 765px) and (max-width: 979px) {
+    body {
+        min-width: 768px
+    }
+
+    .container, .CookieContainer .CookieInner {
+        width: 768px
+    }
+
+    .middleContent .homeQuicklist .myProfile ul li {
+        width: 100%
+    }
+
+    .homeHeaderLoggedIn .carousel .item .leftSide {
+        width: 350px
+    }
+
+    .pageContentContainer {
+        width: 766px
+    }
+
+    .middleContent > .contentContainer {
+        width: 726px
+    }
+
+    .tile_4_right {
+        width: 584px
+    }
+
+    .contentContainer {
+        width: 544px
+    }
+
+    .tile_wide .contentContainer {
+        width: 726px
+    }
+
+    .printButton {
+        right: 10px
+    }
+
+    .ui-jqgrid .ui-jqgrid-btable tr td input.comment {
+        width: 70px
+    }
+
+    .typeahead {
+        min-width: 0
+    }
+
+    #logo {
+        margin-left: 10px;
+        margin-right: 48px
+    }
+
+    #header.fixed #logo {
+        margin-left: 10px;
+        margin-right: 151px
+    }
+
+    #header .searchForm input[type=text] {
+        width: 148px
+    }
+
+    #header #nav-sub {
+        margin: 21px 10px 20px 0
+    }
+
+    #nav-sub .btn-cart, #nav-sub .btn-fav {
+        max-width: 100px
+    }
+
+    #nav-sub .btn-cart span, #nav-sub .btn-fav span {
+        max-width: 30px
+    }
+
+    #nav {
+        min-width: 748px;
+        max-width: 768px
+    }
+
+    #nav li {
+        max-width: 160px
+    }
+
+    #nav li a {
+        padding: 0 7px 0 7px
+    }
+
+    #nav li .dropdown {
+        padding: 0;
+        width: 768px
+    }
+
+    #nav li .dropdown li {
+        padding: 15px 19px 10px 0
+    }
+
+    #nav li .dropdown ul.categories > li {
+        width: 33%
+    }
+
+    #nav li .dropdown ul.brands > li, #nav li .dropdown ul.contactInfo > li {
+        width: 100%
+    }
+
+    #nav li .dropdown ul.categories > li.idxMod3_0 {
+        clear: left
+    }
+
+    #nav li .dropdown ul.categories > li.idxMod4_0 {
+        clear: none
+    }
+
+    #nav li .dropdown ul.categories {
+        width: 515px;
+        max-width: 515px
+    }
+
+    .sidebar {
+        width: 181px
+    }
+
+    #footer #ems70_FooterTop {
+        width: 728px
+    }
+
+    #footer .topbox {
+        width: 766px
+    }
+
+    #footer .footer-box {
+        width: 182px;
+        padding-left: 10px
+    }
+
+    #footer .footer-box:first-child {
+        display: none
+    }
+
+    #footer #ems70_FooterBottom .footer-box {
+        display: block
+    }
+
+    #footer .foot .container {
+        width: 748px;
+        padding: 25px 10px 25px 10px;
+        background-image: none
+    }
+
+    .homeContainer {
+        width: 100%
+    }
+
+    .homeHeaderLoggedIn {
+        height: 157px
+    }
+
+    .homeHeaderLoggedIn .carousel .item {
+        height: 157px
+    }
+
+    .homeHeader .image img {
+        left: 33%
+    }
+
+    .homeHeader .content .column2 {
+        width: 260px;
+        padding-right: 0
+    }
+
+    .homeHeader .content .btn {
+        margin-bottom: 10px
+    }
+
+    .homeHeader .content .column2 .quote {
+        display: none !important
+    }
+
+    .marketingBar .brandsHome .logos {
+        width: 670px
+    }
+
+    .middleContent .homeMarketing2col, .middleContent .homePromotions, .middleContent .homeHighlights, .registered .middleContent #ems70_HomepageContentMiddle {
+        width: 766px
+    }
+
+    ul.highlightPromotionElements.categories.categories-grid {
+        width: 587px
+    }
+
+    .middleContent .homeMarketing1col {
+        width: 748px;
+        padding: 8px 9px 18px 9px
+    }
+
+    .middleContent .homeMarketing3col {
+        width: 748px;
+        padding: 28px 9px 28px 9px
+    }
+
+    .middleContent .homeMarketing3col div {
+        width: 236px
+    }
+
+    .middleContent .homeAssortment {
+        width: 749px;
+        height: 381px;
+        padding: 8px 9px 20px 9px;
+        overflow: hidden
+    }
+
+    .middleContent .homeMarketing2col div {
+        width: 364px;
+        margin-right: 10px
+    }
+
+    .middleContent .homeMarketing2col div.column1 {
+        padding: 9px
+    }
+
+    .middleContent .homeMarketing2col div.column2 {
+        padding: 9px 9px 9px 0;
+        margin: 0
+    }
+
+    .middleContent .homeMarketing2col img {
+        width: 570px
+    }
+
+    .homeHeaderLoggedIn .carousel, .homeHeaderLoggedIn .carousel .item, .middleContent .homeHighlights ul {
+        width: 768px
+    }
+
+    .homeHeaderLoggedIn .carousel .item .rightSide {
+        text-align: right
+    }
+
+    .middleContent .homeHighlights ul li, .middleContent .homeHighlights ul li img, .middleContent .homeHighlightsBanner img {
+        width: 368px;
+        height: auto
+    }
+
+    .middleContent .poll {
+        width: 343px
+    }
+
+    .middleContent .homeQuicklist {
+        width: 341px
+    }
+
+    .middleContent .homeQuicklist .orderLines ul li, .middleContent .homeQuicklist .favorites ul li {
+        padding-bottom: 10px
+    }
+
+    .middleContent .homeQuicklist .favorites .name {
+        width: 125px
+    }
+
+    .middleContent .homeQuicklist .favorites .comment {
+        width: 60px
+    }
+
+    .middleContent .homeNews {
+        width: 340px
+    }
+
+    .middleContent .popularCategories.popularCategories_5 {
+        width: 738px
+    }
+
+    .middleContent .popularCategories.popularCategories_5 ul {
+        width: 738px;
+        height: 315px;
+        overflow: hidden
+    }
+
+    .middleContent .popularCategories.popularCategories_5 ul ul {
+        width: auto;
+        overflow: auto
+    }
+
+    .middleContent .popularCategories.popularCategories_5 ul li {
+        width: 226px
+    }
+
+    .popularCategories {
+        width: 565px;
+        padding: 10px 9px 10px 9px
+    }
+
+    .popularCategories ul li {
+        float: left;
+        width: 188px
+    }
+
+    .popularCategories_3 {
+        float: left
+    }
+
+    .popularCategories, .brandBanner {
+        padding: 10px 9px 10px 9px
+    }
+
+    .brandBanner {
+        width: 746px
+    }
+
+    .catalogSearch .catalogEntriesCarousel .carousel ul li {
+        width: 134px
+    }
+
+    .catalogSearch .popularCategories ul li {
+        width: 168px
+    }
+
+    .brandBanner .carousel ul li {
+        padding: 0 16px
+    }
+
+    .withExtendedHeader .brandBanner .carousel ul li {
+        padding: 0 29px
+    }
+
+    .myAccount li {
+        width: 100%
+    }
+
+    .categories.categories-list, .categories.categories-grid, .categories.categories-clear {
+        width: 585px
+    }
+
+    .categories.categories-list > li.catEntry > div.desc {
+        width: 90px
+    }
+
+    .categories.categories-list > li.catEntry > div.price {
+        width: 70px
+    }
+
+    .categories.categories-clear > li.catEntry {
+        width: 290px
+    }
+
+    .categories.categories-clear > li.catEntry:nth-child(odd) {
+        width: 288px
+    }
+
+    .categories.categories-clear > li.catEntry:nth-child(even) {
+        width: 287px
+    }
+
+    .categories.categories-clear > li.catEntry > div.desc {
+        width: 145px;
+        height: 68px
+    }
+
+    .categories.categories-list > li.catEntry .orderItemAddForm input.comment {
+        width: 80px
+    }
+
+    .guest .categories.categories-list > li.catEntry > div.desc {
+        width: 260px
+    }
+
+    .productCategories .accordion .accordion-inner ul li {
+        width: 50%
+    }
+
+    .catalogMarketingCategories li {
+        width: 172px
+    }
+
+    .catalogMarketingCategories li:nth-child(4n+0) {
+        margin-right: 10px
+    }
+
+    .catalogMarketingCategories li:nth-child(3n+0) {
+        margin-right: 0
+    }
+
+    .catalogMarketingCategories li .categorieImage {
+        padding: 35px 10px
+    }
+
+    .favorite-list li.headers > div.itemDetails, .categories.categories-list.favorite-list > li.catEntry .itemDetails {
+        float: right;
+        margin-right: 10px
+    }
+
+    .favorite-list li.headers > div.desc, .categories.categories-list.favorite-list > li.catEntry > div.desc {
+        width: 180px
+    }
+
+    .favorite-list li.headers > div.addToCart, .categories.categories-list.favorite-list > li.catEntry > div.addToCart {
+        float: left;
+        clear: left;
+        margin-left: 153px
+    }
+
+    .categories.categories-list.favorite-list > li.catEntry .itemDelete {
+        margin-bottom: 10px
+    }
+
+    .contentContainer .saveButton.jsOnly.alert.fixed .saveButtonInner {
+        width: 768px
+    }
+
+    .brandInfo {
+        width: 585px
+    }
+
+    .brandInfo .brandLogo {
+        padding: 10px 10px 20px 10px
+    }
+
+    .brandInfo .brandText {
+        float: right;
+        width: 405px;
+        padding: 10px 10px 0 0
+    }
+
+    .brandInfo .brandInfoLinks {
+        float: left;
+        clear: left;
+        width: 564px;
+        border: 0;
+        margin: 0 0 20px 0;
+        padding: 5px 10px 5px 10px
+    }
+
+    .brandsSidebar .brandsFilter .filteronbrand {
+        width: 117px
+    }
+
+    .brandsOverview {
+        width: 570px;
+        padding: 10px 5px 10px 10px
+    }
+
+    .brandOverviewTop {
+        width: 586px
+    }
+
+    .brandOverviewTop .leftSide {
+        width: 250px
+    }
+
+    .brandOverviewTop .rightSide {
+        width: 296px;
+        overflow: hidden
+    }
+
+    .brandOverviewTop .rightSide img {
+        max-width: none
+    }
+
+    .contentContainer.brandHeader .brandTitle {
+        width: 470px
+    }
+
+    .catalogMarketingTop .contentLeft, .catalogMarketingTop .contentRight, .contentContainer.brandHeaderMarketing .brandHeaderMarketingTop .contentLeft, .contentContainer.brandHeaderMarketing .brandHeaderMarketingTop .contentRight {
+        width: 100%
+    }
+
+    .catalogMarketingTop .contentLeft {
+        margin: 0
+    }
+
+    .brandCategories li {
+        width: 172px !important
+    }
+
+    .brandCategories li:nth-child(4n+0) {
+        margin-right: 10px !important
+    }
+
+    .brandCategories li:nth-child(3n+0) {
+        margin-right: 0 !important
+    }
+
+    .brandCategories li .categorieImage {
+        padding: 35px 10px
+    }
+
+    .shoppingCart .myShoppingcartWrapper {
+        width: 766px;
+        border: 0;
+        min-height: 10px
+    }
+
+    .detailedPricing .amountGross {
+        margin-right: 0
+    }
+
+    .shoppingCart .myShoppingcartWrapper .myShoppingcart {
+        padding: 10px
+    }
+
+    .shoppingCart .myShoppingcart .alert {
+        width: 724px
+    }
+
+    .addItem {
+        padding: 15px 10px
+    }
+
+    .detailedPricing {
+        width: 746px;
+        padding: 10px 10px 70px 10px
+    }
+
+    .detailedPricing h1 {
+        width: 100%
+    }
+
+    .detailedPricing table {
+        width: 540px
+    }
+
+    .detailedPricing .checkoutWrapperClean {
+        margin-right: 5px
+    }
+
+    .shoppingCart .checkoutWrapper {
+        float: none;
+        padding: 20px;
+        width: auto;
+        min-height: 170px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #f6f8fa;
+        z-index: 10000;
+        border: 0;
+        border-top: 1px solid #e1e4e8;
+        -webkit-box-shadow: 0 0 5px 0 #c5ceda;
+        -moz-box-shadow: 0 0 5px 0 #c5ceda;
+        box-shadow: 0 0 5px 0 #c5ceda;
+        min-height: 200px;
+        *min-height: 0
+    }
+
+    .shoppingCart .checkoutWrapper .priceSummeryCompact {
+        overflow: hidden
+    }
+
+    .shoppingCart .checkoutWrapper .checkout {
+        width: 738px;
+        margin: 0 auto;
+        padding: 15px 15px;
+        position: relative
+    }
+
+    .shoppingCart .checkoutWrapper .overview {
+        width: 100%;
+        padding-bottom: 0
+    }
+
+    .shoppingCart .checkoutWrapper .overview p {
+        float: left;
+        margin: 0;
+        width: 100%
+    }
+
+    .shoppingCart .checkoutWrapper .total {
+        clear: left;
+        margin-right: 30px;
+        margin-left: 130px
+    }
+
+    .shoppingCart .saveButton {
+        overflow: hidden;
+        padding: 10px;
+        margin: 20px 0
+    }
+
+    .shoppingCart .saveButton .btn-warning {
+        float: right
+    }
+
+    .shoppingCart .checkout form {
+        float: right
+    }
+
+    .checkoutStep2 .deliveryaddress, .checkoutStep3 .deliveryaddress {
+        width: 344px;
+        padding: 20px 10px 20px 9px
+    }
+
+    .checkoutStep2 .payment, .checkoutStep3 .payment {
+        width: 384px
+    }
+
+    .checkoutStep2 .DetailedPricingAndPayment {
+        width: 384px;
+        padding: 20px 9px 20px 10px
+    }
+
+    .checkoutStep2 .detailedPrice, .checkoutStep2 .detailedPricing {
+        width: 366px
+    }
+
+    .detailedPricing .back-button {
+        left: 10px
+    }
+
+    .checkoutStep3 .btn-group-checkout, .checkoutStep4 .btn-group-checkout {
+        width: 748px;
+        padding: 20px 9px
+    }
+
+    .orderLegalLinks {
+        width: 748px;
+        padding: 0 9px 20px 9px
+    }
+
+    .checkoutStep2 .orderLegalLinks {
+        width: 726px !important
+    }
+
+    .shoppingCart .checkoutStep3 .myShoppingcartWrapper {
+        width: 766px
+    }
+
+    li.catEntry .orderItemAddForm .btn-group .btn span {
+        display: none
+    }
+
+    .product .product-images {
+        padding: 18px 20px 10px 9px
+    }
+
+    .product .product-info {
+        width: 518px;
+        padding: 18px 9px 58px 0
+    }
+
+    .checkoutStep4 .confirmation, .checkoutStep4 .btn-group-checkout {
+        width: 748px;
+        padding: 20px 9px
+    }
+
+    .product .product-side {
+        float: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        min-height: 130px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #f6f8fa;
+        z-index: 10000;
+        border: 0;
+        border-top: 1px solid #e1e4e8;
+        -webkit-box-shadow: 0 0 5px 0 #c5ceda;
+        -moz-box-shadow: 0 0 5px 0 #c5ceda;
+        box-shadow: 0 0 5px 0 #c5ceda;
+        display: none
+    }
+
+    .guest .product-side {
+        display: none
+    }
+
+    .product .product-side.cartTools {
+        display: block
+    }
+
+    .product .product-side .add-to-cart-wrapper {
+        float: none;
+        width: 728px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        position: relative;
+        overflow: hidden;
+        min-height: 110px
+    }
+
+    .product .product-side .product-items {
+        float: left;
+        width: 100%
+    }
+
+    .product .product-side .view-items {
+        float: left;
+        width: 100%
+    }
+
+    .product .product-side .prices {
+        float: left;
+        width: 160px
+    }
+
+    .product .product-side form label {
+        float: left;
+        margin: 5px 10px 10px 0
+    }
+
+    .product .product-side .quantity {
+        float: left;
+        width: 130px
+    }
+
+    .product .product-side form .decrease, .product .product-side form .increase {
+        float: left;
+        margin-right: 5px
+    }
+
+    .product .product-side form .decrease {
+        clear: left
+    }
+
+    .product .product-side form .quantity {
+        float: left;
+        width: 52px;
+        margin-right: 5px
+    }
+
+    .product .product-side form .atp {
+        float: left;
+        margin: 0 0 10px 20px;
+        clear: none;
+        width: 120px
+    }
+
+    .product .product-side div.atp {
+        position: absolute;
+        left: 400px;
+        top: 20px;
+        width: 160px
+    }
+
+    .product .product-side form .atp a {
+        clear: both
+    }
+
+    .product .product-side form .amount {
+        position: absolute;
+        left: 240px
+    }
+
+    .product .product-side .itemRC {
+        position: absolute;
+        left: 190px;
+        bottom: 20px
+    }
+
+    .product .product-side .itemRC .discountCode {
+        padding: 8px 8px;
+        line-height: 14px
+    }
+
+    .product .product-side form .btn-group {
+        position: absolute;
+        right: 20px;
+        bottom: 20px
+    }
+
+    .product .product-side form .atp span.title {
+        padding-top: 5px;
+        margin: 0 0 5px 0
+    }
+
+    .product .product-side form .comment {
+        position: absolute;
+        top: 15px;
+        right: 20px
+    }
+
+    .product .product-side form .comment .comment {
+        position: static;
+        top: auto;
+        right: auto
+    }
+
+    .btn-group-add {
+        width: 157px;
+        float: right;
+        clear: right
+    }
+
+    .product .product-side span.title {
+        width: auto;
+        float: left;
+        padding: 5px 20px 0 0;
+        margin: 0
+    }
+
+    .product .product-side .actions {
+        float: none;
+        position: absolute;
+        bottom: 20px;
+        left: 240px
+    }
+
+    .product .product-side .actions .add-to-favorties.action {
+        margin-top: 0;
+        padding: 5px 11px
+    }
+
+    .product .product-side .actions .link-message.alert {
+        margin-bottom: 0;
+        padding: 4px 8px
+    }
+
+    .product .product-side .actions span.title {
+        margin: 0 0 5px 0
+    }
+
+    .product .product-side .actions ul.add-to-favorties {
+        float: left;
+        clear: both
+    }
+
+    .product .product-side .actions ul.add-to-favorties li {
+        width: auto;
+        float: left;
+        clear: left;
+        padding: 0 20px 0 0;
+        margin: 0;
+        line-height: 20px
+    }
+
+    .product .product-side .prices .bracketPrices {
+        width: 190px
+    }
+
+    .product .product-side .prices .bracketPrices ul {
+        margin-bottom: 23px;
+        border: 1px solid #e6e6e8;
+        border-bottom: 0
+    }
+
+    .bracketPrices ul li {
+        background: #fff
+    }
+
+    .bracketPrices ul li.title {
+        background: #fe9900
+    }
+
+    .product .product-side .addtocard {
+        position: absolute;
+        top: 20px;
+        right: 20px
+    }
+
+    .itemPage .categories-list {
+        width: 100%
+    }
+
+    .itemPage .categories.categories-list li .desc {
+        margin-left: 5px;
+        width: 190px
+    }
+
+    .guest .itemPage .categories.categories-list li .desc {
+        margin-left: 5px;
+        width: 420px
+    }
+
+    .itemPage .categories.categories-list li .price {
+        width: 70px
+    }
+
+    .itemPage .categories.categories-list li .atp {
+        width: 80px
+    }
+
+    .guest .itemPage .categories.categories-list li div.view {
+        width: auto
+    }
+
+    .itemPage .catalogEntriesCarousel {
+        width: 728px
+    }
+
+    .orderItemAddForm {
+        float: none
+    }
+
+    .product .product-side .orderItemAddForm {
+        margin-top: 0
+    }
+
+    .product .product-side form fieldset {
+        padding-top: 0
+    }
+
+    .orderItemAddForm .btn-group {
+        float: left
+    }
+
+    .bodyContainer .zoomWrapper {
+        width: 535px !important
+    }
+
+    .bodyContainer #inner360Zoom {
+        left: 220px !important
+    }
+
+    .catalogEntriesCarousel .carousel .carousel-inner {
+        margin-left: 1px
+    }
+
+    .catalogEntriesCarousel .carousel ul li {
+        width: 128px
+    }
+
+    .product .product-side .prices .bracketPrices {
+        width: auto;
+        margin: 0 5px 0 0
+    }
+
+    .brandOverviewContainer .popularCategories ul li {
+        width: 168px
+    }
+
+    .clickPromotions ul li {
+        width: 151px
+    }
+
+    .clickPromotionCarousel ul li.item {
+        width: 128px
+    }
+
+    .clickPromotionCarousel ul li.item .orderItemAddForm .btn-group {
+        float: left
+    }
+
+    .categories.favorite-list li .desc {
+        width: 70px
+    }
+
+    .dealerlocator .search-place .btn {
+        float: right;
+        margin: 10px 10px 0 0
+    }
+
+    .dealerlocator .search-name .btn {
+        float: right;
+        margin: 10px 0 0 0
+    }
+
+    .dealerlocator .search-place input[type="text"] {
+        width: 222px
+    }
+
+    .dealerlocator .search-name input[type="text"] {
+        width: 328px
+    }
+
+    .dealerlocator .search-place select[name='country'], .dealerlocator .search-name select[name='country'] {
+        width: 236px;
+        margin-left: 0;
+        margin-top: 10px
+    }
+
+    .poll {
+        padding: 20px
+    }
+
+    .poll .progress {
+        width: 50px
+    }
+
+    .poll .answer {
+        padding-left: 105px
+    }
+
+    .form-half {
+        width: 100%
+    }
+
+    .academy .contentColumn50pr {
+        width: 97%;
+        margin-right: 3%
+    }
+
+    .academy .highlighted .marketingImage img {
+        position: static;
+        bottom: auto;
+        right: auto
+    }
+
+    .customerPortalBody .main .overview ul li {
+        width: 424px
+    }
+
+    .customerPortalBody .row-fluid .span6 {
+        width: 100%;
+        margin: 0 0 20px 0
+    }
+
+    .customerPortalBody form .tableForm td.right {
+        width: 350px
+    }
+
+    .customerPortalBody form .tableForm td input[type="text"] {
+        width: 96%
+    }
+
+    .customerPortalBody form .tableForm td .btn-uploadImage {
+        width: 130px
+    }
+
+    .customerPortalBody form .tableForm td .partnerContactThumbnail {
+        width: 206px !important
+    }
+
+    .customerPortalBody form .tableForm td input.TimeField {
+        width: 75px
+    }
+
+    .consumer.returnsContainer .informationFloatLeft, .warrantyForm .informationFloatLeft, .consumer.returnsContainer .informationFloatRight, .warrantyForm .informationFloatRight {
+        float: left;
+        width: 100%;
+        margin: 0
+    }
+
+    .customerPortalBody .consumer.returnsContainer .comment {
+        width: 520px
+    }
+
+    #colorSelection {
+        width: 100%
+    }
+
+    .PreviewWebshopColorsContainer {
+        float: left
+    }
+
+    #partnerContentPreviewModal {
+        width: 750px;
+        margin-left: -375px
+    }
+
+    .checkoutWrapper .priceSummeryCompact {
+        display: block;
+        width: 33%;
+        position: absolute
+    }
+
+    .checkoutWrapper .saveButton {
+        display: none
+    }
+
+    .checkoutWrapper .checkoutButton {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        width: 25%
+    }
+
+    .checkoutWrapper .checkoutButton a {
+        float: right !important;
+        margin: 0;
+        padding: 7px
+    }
+
+    .checkoutWrapper .showDetailedInformation {
+        display: none
+    }
+
+    .checkoutWrapper .freightCharge {
+        display: block;
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        width: 25%
+    }
+
+    .accordion .accordion-inner .facetSearch .facetSearchInput {
+        width: 110px
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        min-width: 1200px
+    }
+
+    .container, .CookieContainer .CookieInner {
+        width: 1200px
+    }
+
+    .pageContentContainer {
+        width: 1198px
+    }
+
+    .middleContent > .contentContainer, .middleContent > form > .contentContainer, .middleContent > .Page_OrderForm .contentContainer {
+        width: 1158px
+    }
+
+    .tile_4_right {
+        width: 974px
+    }
+
+    .tile_wide .contentContainer {
+        width: 1158px
+    }
+
+    .contentContainer {
+        width: 934px
+    }
+
+    .dealerLocatorBody .contentContainer {
+        width: 1198px
+    }
+
+    .dealerlocator .search-place input[type="text"] {
+        width: 215px
+    }
+
+    .dealerlocator .search-name input[type="text"] {
+        width: 314px
+    }
+
+    .dealerlocator .search-place select[name='country'], .dealerlocator .search-name select[name='country'] {
+        width: 149px
+    }
+
+    #header .searchForm {
+        margin-left: 155px
+    }
+
+    #nav-sub .btn-cart, #nav-sub .btn-fav {
+        max-width: 220px
+    }
+
+    #nav-sub .btn-cart span, #nav-sub .btn-fav span {
+        max-width: 150px
+    }
+
+    #nav li {
+        max-width: 250px
+    }
+
+    .nav-wrapper > #nav > li .dropdown {
+        width: 1198px
+    }
+
+    #nav li .dropdown li.idxMod3_0 {
+        clear: none
+    }
+
+    #nav li .dropdown li.idxMod4_0 {
+        clear: left
+    }
+
+    #nav li .dropdown ul.categories {
+        width: 925px;
+        max-width: 925px
+    }
+
+    #nav li .dropdown ul.brands {
+        padding-right: 12px
+    }
+
+    #nav li .dropdown div.marketing {
+        width: 172px
+    }
+
+    .sidebar {
+        width: 223px
+    }
+
+    #iconbar {
+        width: 199px
+    }
+
+    #footer #ems70_FooterTop {
+        width: 1160px
+    }
+
+    #footer .topbox {
+        width: 1198px
+    }
+
+    #footer .footer-box {
+        width: 240px
+    }
+
+    #footer .foot .container {
+        width: 895px;
+        background-position: 932px 25px
+    }
+
+    .homeContainer {
+        width: 100%
+    }
+
+    .homeHeaderLoggedIn .carousel .item .content {
+        width: 650px
+    }
+
+    .middleContent .homeMarketing2col, .middleContent .homePromotions, .middleContent .homeHighlights, .registered .middleContent #ems70_HomepageContentMiddle {
+        width: 1198px
+    }
+
+    .marketingBar .brandsHome .logos {
+        width: 1140px
+    }
+
+    .middleContent .homeMarketing1col {
+        width: 1160px
+    }
+
+    .middleContent .homeMarketing3col {
+        width: 1160px
+    }
+
+    .middleContent .homeMarketing3col div {
+        width: 373px
+    }
+
+    .middleContent .homeMarketing3col img {
+        width: 373px;
+        height: auto
+    }
+
+    .middleContent .homeAssortment {
+        width: 1170px
+    }
+
+    .middleContent .homeAssortment ul li, .middleContent .homeAssortment .image {
+        width: 231px
+    }
+
+    .middleContent .homeMarketing2col div {
+        width: 560px
+    }
+
+    .middleContent .homeMarketing2col img {
+        width: 570px
+    }
+
+    .homeHeaderLoggedIn .carousel, .middleContent .homeHighlights ul {
+        width: 1200px
+    }
+
+    .middleContent .homeHighlights ul li, .middleContent .homeHighlights ul li img, .middleContent .homeHighlightsBanner img {
+        width: 386px;
+        height: auto
+    }
+
+    ul.highlightPromotionElements.categories.categories-grid {
+        width: 975px
+    }
+
+    .middleContent .poll {
+        width: 559px
+    }
+
+    .middleContent .homeQuicklist {
+        width: 557px
+    }
+
+    .middleContent .homeNews {
+        width: 556px
+    }
+
+    .middleContent .homeQuicklist .myProfile ul li {
+        width: 50%
+    }
+
+    .middleContent .homeQuicklist .orderLines .comment {
+        width: 342px
+    }
+
+    .middleContent .homeQuicklist .favorites .comment {
+        width: 201px
+    }
+
+    .popularCategories {
+        width: 946px
+    }
+
+    .popularCategories ul li {
+        width: 291px
+    }
+
+    .brandOverviewContainer .popularCategories.popularCategories_3 {
+        width: 946px
+    }
+
+    .brandOverviewContainer .popularCategories.popularCategories_3 ul li {
+        width: 265px;
+        padding-right: 50px
+    }
+
+    .middleContent .popularCategories.popularCategories_5 {
+        width: 1169px
+    }
+
+    .middleContent .popularCategories.popularCategories_5 ul li {
+        width: 213px
+    }
+
+    .brandBanner {
+        width: 1158px
+    }
+
+    .brandBanner .carousel ul li {
+        padding: 0 24px
+    }
+
+    .withExtendedHeader .brandBanner .carousel ul li {
+        padding: 0 21px
+    }
+
+    .catalogSearch .catalogEntriesCarousel .carousel ul li {
+        width: 150px
+    }
+
+    .categories.categories-clear, .categories.categories-grid, .categories.categories-list {
+        width: 975px
+    }
+
+    .categories.categories-list > li.catEntry .desc {
+        width: 310px
+    }
+
+    .categories.categories-list > li.catEntry > div.desc {
+        width: 304px
+    }
+
+    .categories.categories-list > li.catEntry .price {
+        width: 100px
+    }
+
+    .categories.categories-list > li.catEntry .price p.price {
+        width: auto
+    }
+
+    .categories.categories-list > li.catEntry .atp {
+        width: 100px
+    }
+
+    .categories.categories-list > li.catEntry .view {
+        clear: right
+    }
+
+    .categories.categories-grid {
+        width: 975px
+    }
+
+    .categories.categories-clear {
+        width: 975px
+    }
+
+    .categories.categories-clear > li.catEntry {
+        width: 483px
+    }
+
+    .categories.categories-clear > li.catEntry:nth-child(odd) {
+        width: 482px
+    }
+
+    .categories.categories-clear > li.catEntry:nth-child(even) {
+        width: 482px
+    }
+
+    .categories.categories-clear > li.catEntry .desc {
+        width: 342px
+    }
+
+    .guest .categories.categories-list > li.catEntry .desc {
+        width: 530px
+    }
+
+    .catalogMarketingCategories li {
+        width: 176px
+    }
+
+    .catalogMarketingCategories li:nth-child(4n+0) {
+        margin-right: 10px
+    }
+
+    .catalogMarketingCategories li:nth-child(5n+0) {
+        margin-right: 0
+    }
+
+    .catalogMarketingCategories li .categorieImage {
+        padding: 37px 10px
+    }
+
+    .favorite-list li.headers > div.desc, .categories.categories-list.favorite-list > li.catEntry > div.desc {
+        width: 240px
+    }
+
+    .brandInfo {
+        width: 975px
+    }
+
+    .brandInfo .brandText {
+        width: 551px
+    }
+
+    .contentContainer .saveButton.jsOnly.alert.fixed .saveButtonInner {
+        width: 1200px
+    }
+
+    .brandsSidebar .brandsFilter .filteronbrand {
+        width: 165px
+    }
+
+    .brandsOverview {
+        width: 950px
+    }
+
+    .brandOverviewTop {
+        width: 976px
+    }
+
+    .brandOverviewTop .leftSide {
+        width: 550px
+    }
+
+    .brandCategories li {
+        width: 176px
+    }
+
+    .brandCategories li:nth-child(4n+0) {
+        margin-right: 10px !important
+    }
+
+    .brandCategories li:nth-child(5n+0) {
+        margin-right: 0 !important
+    }
+
+    .brandCategories li .categorieImage {
+        padding: 37px 10px
+    }
+
+    .shoppingCart .myShoppingcartWrapper {
+        width: 1012px
+    }
+
+    .shoppingCart .myShoppingcart .alert {
+        width: 952px
+    }
+
+    .checkoutStep2 .DetailedPricingAndPayment {
+        width: 600px
+    }
+
+    .detailedPricing {
+        width: 1158px
+    }
+
+    .detailedPricing h1 {
+        width: 535px
+    }
+
+    .checkoutStep2 .detailedPrice, .checkoutStep2 .detailedPricing {
+        width: 582px
+    }
+
+    .checkoutStep2 .deliveryaddress, .checkoutStep3 .deliveryaddress {
+        width: 540px
+    }
+
+    .checkoutStep2 .payment, .checkoutStep3 .payment {
+        width: 600px
+    }
+
+    .checkoutStep3 .btn-group-checkout, .checkoutStep4 .confirmation, .checkoutStep4 .btn-group-checkout, .orderLegalLinks {
+        width: 1160px
+    }
+
+    .checkoutStep2 .orderLegalLinks {
+        max-width: 925px
+    }
+
+    .shoppingCart .checkoutStep3 .myShoppingcartWrapper {
+        width: 1198px
+    }
+
+    .product .product-images {
+        width: 310px;
+        padding: 18px 11px 10px 18px
+    }
+
+    .bodyContainer .imageViewer .standardImage {
+        width: 300px;
+        height: 300px
+    }
+
+    .product .product-info {
+        width: 590px;
+        padding: 18px 20px 18px 0
+    }
+
+    .product .product-info .product-wrapper h1 {
+        width: 500px
+    }
+
+    .product .product-side {
+        width: 211px;
+        padding: 0 18px 18px 18px
+    }
+
+    .tab-content .categories-list {
+        width: 100%
+    }
+
+    .bodyContainer .zoomPad {
+        width: 300px;
+        height: 300px
+    }
+
+    .bodyContainer .zoomWindow {
+        left: 310px !important
+    }
+
+    .bodyContainer #inner360Zoom {
+        left: 330px !important
+    }
+
+    .bodyContainer .zoomWrapper {
+        width: 848px !important
+    }
+
+    .catalogEntriesCarousel .carousel .carousel-inner {
+        margin-left: 1px
+    }
+
+    .catalogEntriesCarousel .carousel ul li {
+        width: 148px
+    }
+
+    .product .product-side .prices .bracketPrices {
+        width: 248px
+    }
+
+    .clickPromotions ul li {
+        width: 166px
+    }
+
+    .clickPromotionCarousel .carousel-inner, .interestingPromotionCarousel .carousel-inner {
+        margin-left: 1px
+    }
+
+    .clickPromotionCarousel ul li.item {
+        width: 148px
+    }
+
+    .poll {
+        padding: 20px;
+        background: #f6f8fa;
+        min-height: 205px
+    }
+
+    .poll p {
+        margin-bottom: 15px
+    }
+
+    .poll label {
+        margin-bottom: 5px
+    }
+
+    .customerPortalBody .main .overview ul li {
+        width: 455px
+    }
+
+    #ReturnOrderCartForm .buttons.table input[type="text"] {
+        width: 195px
+    }
+
+    .customerPortalBody form .tableForm td input[type="text"] {
+        width: 260px
+    }
+
+    .customerPortalBody form .tableForm td input.number {
+        width: 125px
+    }
+
+    .customerPortalBody form .tableForm td input.qty {
+        width: 35px
+    }
+
+    .customerPortalBody form .tableForm td input.date {
+        width: 100px
+    }
+
+    .customerPortalBody form .tableForm td .btn-uploadImage {
+        width: 100px
+    }
+
+    .customerPortalBody form .tableForm td .partnerContactThumbnail {
+        width: 160px !important
+    }
+
+    .customerPortalBody form .tableForm td input.TimeField {
+        width: 75px
+    }
+
+    .customerPortalBody .consumer.returnsContainer .comment {
+        width: 920px
+    }
+
+    .warrantyForm .componentNo {
+        width: 123px
+    }
+
+    .warrantyForm .componentDesc {
+        width: 245px
+    }
+
+    .warrantyForm .componentQuantity {
+        width: 44px
+    }
+
+    .warrantyForm .componentOrderNo {
+        width: 130px
+    }
+
+    .warrantyForm .componentInvoiceNo {
+        width: 130px
+    }
+
+    .warrantyForm .componentDate {
+        width: 82px
+    }
+
+    #colorSelection {
+        width: 544px
+    }
+
+    .accordion .accordion-inner .facetSearch .facetSearchInput {
+        width: 151px
+    }
+}
+
+@media (min-width: 765px) and (max-width: 979px) {
+    .partnerCustomer #header #logo {
+        margin-right: 10px
+    }
+
+    #header .searchForm .SelectCatSearch {
+        display: none
+    }
+
+    #header .searchForm input[type=text] {
+        -webkit-border-bottom-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        -webkit-border-top-left-radius: 2px;
+        border-top-left-radius: 2px;
+        -moz-border-radius-bottomleft: 2px;
+        -moz-border-radius-topleft: 2px
+    }
+
+    #header #nav-sub {
+        margin: 8px 10px 8px 0
+    }
+
+    #ems70_CatalogTop, #ems70_SearchTop {
+        width: 585px
+    }
+
+    #ems70_CatalogTop .leftSide, #ems70_SearchTop .leftSide {
+        width: 240px
+    }
+
+    #ems70_CatalogTop .rightSide, #ems70_SearchTop .rightSide {
+        width: 305px;
+        overflow: hidden
+    }
+
+    #ems70_CatalogTop .rightSide img, #ems70_SearchTop .rightSide img {
+        max-width: none
+    }
+
+    .usp {
+        display: none
+    }
+
+    #ems70_FooterTop {
+        width: 585px
+    }
+
+    #ems70_FooterTop .leftSide {
+        width: 243px
+    }
+
+    #ems70_FooterTop .rightSide {
+        width: 302px
+    }
+
+    #ems70_FooterTop .rightSide img {
+        max-width: none
+    }
+
+    .dealerLocatorBody .contentContainer {
+        width: 728px
+    }
+
+    .dealerlocator {
+        padding: 0 0 20px 0;
+        overflow: hidden
+    }
+
+    #footer .foot .container {
+        background-image: none !important
+    }
+
+    .partnerCustomer #footer .foot .container {
+        padding-right: 270px;
+        width: 488px
+    }
+
+    .partnerCustomer .foot p.copy {
+        right: 270px
+    }
+
+    .partnerCustomer .foot .partnerLogo {
+        max-width: 250px;
+        max-height: 50px
+    }
+
+    .accordion .accordion-inner .facetSearch .facetSearchInput {
+        width: 127px
+    }
+}
+
+@media (min-width: 1200px) {
+    #header .searchForm input[type="text"] {
+        width: 228px
+    }
+
+    #ems70_CatalogTop, #ems70_SearchTop {
+        width: 976px
+    }
+
+    #ems70_CatalogTop .leftSide, #ems70_SearchTop .leftSide {
+        width: 550px
+    }
+
+    .accordion .accordion-inner .facetSearch .facetSearchInput {
+        width: 170px
+    }
+
+    .usp {
+        width: 974px
+    }
+
+    #ems70_FooterTop {
+        width: 977px
+    }
+
+    #ems70_FooterTop .leftSide {
+        width: 550px
+    }
+
+    #ems70_CatalogBottom {
+        width: 977px
+    }
+
+    #ems70_CatalogBottom .leftSide {
+        width: 550px
+    }
+
+    .dealerLocatorBody .contentContainer {
+        width: 1158px
+    }
+
+    .dealerlocator {
+        padding: 0 0 20px 0;
+        overflow: hidden
+    }
+
+    #footer .foot .container {
+        background-position: right 25px;
+        width: 875px
+    }
+}

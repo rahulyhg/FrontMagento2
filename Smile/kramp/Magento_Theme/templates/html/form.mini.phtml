@@ -1,0 +1,44 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+<?php
+/** @var $block \Magento\Framework\View\Element\Template */
+/** @var $helper \Magento\Search\Helper\Data */
+$helper = $this->helper('Magento\Search\Helper\Data');
+?>
+        <form class="searchForm" id="search_mini_form" action="<?php /* @escapeNotVerified */ echo $helper->getResultUrl() ?>" method="get">
+            <div class="SelectCatSearch" tooltipx-title="Search in category" rel="popover" data-ajax-target="https://www.kramp.com/do/action/SearchCategorySelectionPartView?langId=-1&amp;storeId=10" data-original-title="" title="">
+                <span class="SelectedCat">All</span><i class="icon-arrow2-down icon-gray">&nbsp;</i>
+                <input type="hidden" name="categoryId" disabled="disabled">
+            </div>
+                    <input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"<?php /* @escapeNotVerified */ echo $block->getUrl('search/ajax/suggest'); ?>",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="<?php /* @escapeNotVerified */ echo $helper->getQueryParamName() ?>"
+                           value="<?php /* @escapeNotVerified */ echo $helper->getEscapedQueryText() ?>"
+                           placeholder="<?php /* @escapeNotVerified */ echo __(''); ?>"
+                           class="input-text searchField headerSearch"
+                           maxlength="<?php /* @escapeNotVerified */ echo $helper->getMaxQueryLength();?>"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <?php echo $block->getChildHtml() ?>
+            <div class="btn-group">
+                <button type="submit"
+                        title="<?php echo $block->escapeHtml(__('Search')) ?>"
+                        class="btn btn-search btn-warning">
+                    <i class="icon-search icon-white">&nbsp;</i>
+                </button>
+            </div>
+        </form>
